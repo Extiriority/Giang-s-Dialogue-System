@@ -1,0 +1,135 @@
+/* CONTAINERS */
+
+.gds-node__extension-container
+{
+    background-color: var(--gds-colors-window-dark-grey-1);
+    padding: var(--gds-metrics-window-pixels-8);
+}
+
+.gds-node__main-container
+{
+    background-color: var(--gds-colors-window-dark-grey-1);
+}
+
+.gds-node__custom-data-container
+{
+    background-color: var(--gds-colors-window-dark-grey-3);
+    border-radius: var(--gds-metrics-window-pixels-4);
+    padding: var(--gds-metrics-window-pixels-8);
+}
+
+/* INPUTS */
+
+.gds-node__text-field > .unity-text-field__input
+{
+    background-color: var(--gds-colors-window-dark-grey-1);
+    border-color: var(--gds-colors-window-dark-grey-6);
+    border-radius: var(--gds-metrics-window-pixels-4);
+    max-width: var(--gds-metrics-window-pixels-240);
+    min-width: var(--gds-metrics-window-pixels-160);
+    padding: var(--gds-metrics-window-pixels-8);
+    white-space: normal;
+    flex-direction: column;
+}
+
+.gds-node__text-field__hidden > .unity-text-field__input
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.gds-node__text-field__hidden > .unity-text-field__input:focus
+{
+    background-color: var(--gds-colors-window-dark-grey-1);
+    border-color: var(--gds-colors-window-dark-grey-6);
+}
+
+.gds-node__filename-text-field > .unity-text-field__input
+{
+    max-width: var(--gds-metrics-window-pixels-1000);
+    margin: var(--gds-metrics-window-pixels-4);
+    padding: var(--gds-metrics-window-pixels-4);
+}
+
+.gds-node__choice-text-field > .unity-text-field__input
+{
+    font-size: var(--gds-metrics-window-pixels-11);
+    height: var(--gds-metrics-window-pixels-35);
+    max-width: var(--gds-metrics-window-pixels-1000);
+    min-width: var(--gds-metrics-window-pixels-0);
+}
+
+.gds-node__choice-text-field > .unity-text-field__input:focus
+{
+    height: var(--gds-metrics-window-pixels-25);
+    margin: var(--gds-metrics-window-pixels-4);
+    padding: var(--gds-metrics-window-pixels-4);
+}
+
+.gds-node__quote-text-field > .unity-text-field__input
+{
+    background-color: var(--gds-colors-window-dark-grey-4);
+    border-color: transparent;
+    border-left-color: var(--gds-colors-window-dark-grey-6);
+    border-left-width: var(--gds-metrics-window-pixels-4);
+    padding: var(--gds-metrics-window-pixels-16);
+    max-width: var(--gds-metrics-window-pixels-600);
+}
+
+.gds-node__quote-text-field > .unity-text-field__input:hover
+{
+    background-color: var(--gds-colors-window-dark-grey-5);
+}
+
+.gds-node__quote-text-field > .unity-text-field__input:focus
+{
+    background-color: var(--gds-colors-window-dark-grey-1);
+    border-color: var(--gds-colors-window-dark-grey-6);
+}
+
+/* BUTTONS */
+
+.gds-node__button
+{
+    background-color: var(--gds-colors-window-dark-grey-5);
+    border-color: var(--gds-colors-window-dark-grey-1);
+    margin: var(--gds-metrics-window-pixels-4);
+    max-height: var(--gds-metrics-window-pixels-25);
+}
+
+.gds-node__button:hover
+{
+    background-color: var(--gds-colors-window-dark-grey-2);
+}
+
+.gds-node__button:active
+{
+    background-color: var(--gds-colors-window-dark-grey-3);
+    color: var(--gds-colors-window-purple);
+}
+
+/* ELEMENTS */
+
+TextField
+{
+    margin-left: var(--gds-metrics-window-pixels-0);
+}
+
+.gds-node__custom-data-container > Foldout
+{
+    margin-left: var(--gds-metrics-window-pixels-n4);
+    margin-top: var(--gds-metrics-window-pixels-4);
+}
+
+.gds-node__custom-data-container > Foldout > TextField
+{
+    margin-left: var(--gds-metrics-window-pixels-n12);
+    margin-top: var(--gds-metrics-window-pixels-8);
+}
+
+/* BUILT IN */
+
+.unity-toggle__text
+{
+    margin-left: var(--gds-metrics-window-pixels-2);
+}
